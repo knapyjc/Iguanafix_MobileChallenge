@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0526CB67038530492554EFA8 /* Pods_MobileChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F70C8105FC7E18B93B8292C /* Pods_MobileChallenge.framework */; };
 		C154D7DE1F054C95000805D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D7DD1F054C95000805D7 /* AppDelegate.swift */; };
-		C154D7E01F054C95000805D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D7DF1F054C95000805D7 /* ViewController.swift */; };
 		C154D7E31F054C95000805D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C154D7E11F054C95000805D7 /* Main.storyboard */; };
 		C154D7E51F054C95000805D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C154D7E41F054C95000805D7 /* Assets.xcassets */; };
 		C154D7E81F054C95000805D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C154D7E61F054C95000805D7 /* LaunchScreen.storyboard */; };
 		C154D7F31F054C95000805D7 /* MobileChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D7F21F054C95000805D7 /* MobileChallengeTests.swift */; };
 		C154D7FE1F054C95000805D7 /* MobileChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D7FD1F054C95000805D7 /* MobileChallengeUITests.swift */; };
+		C154D8101F054F58000805D7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D80F1F054F58000805D7 /* User.swift */; };
+		C154D8121F0552E1000805D7 /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D8111F0552E1000805D7 /* Phone.swift */; };
+		C154D8141F05539C000805D7 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D8131F05539C000805D7 /* UserListViewController.swift */; };
+		C154D8171F05547B000805D7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D8161F05547B000805D7 /* Extensions.swift */; };
+		C154D8191F0554E6000805D7 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D8181F0554E6000805D7 /* Device.swift */; };
+		C154D81B1F0555DC000805D7 /* MyHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D81A1F0555DC000805D7 /* MyHelpers.swift */; };
+		C154D81D1F05575B000805D7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D81C1F05575B000805D7 /* Constants.swift */; };
+		C154D8221F055A99000805D7 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D8211F055A99000805D7 /* MyTableViewCell.swift */; };
+		C154D8241F055E5B000805D7 /* UserApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D8231F055E5B000805D7 /* UserApi.swift */; };
+		C154D8261F05BA82000805D7 /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C154D8251F05BA82000805D7 /* UserDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3AD3BA1B3FD30C8B4CFFA9E1 /* Pods-MobileChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobileChallenge/Pods-MobileChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		3F70C8105FC7E18B93B8292C /* Pods_MobileChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobileChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB46BFF235EC84F738BDCA3 /* Pods-MobileChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobileChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobileChallenge/Pods-MobileChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		C154D7DA1F054C95000805D7 /* MobileChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C154D7DD1F054C95000805D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C154D7DF1F054C95000805D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C154D7E21F054C95000805D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C154D7E41F054C95000805D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C154D7E71F054C95000805D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +59,16 @@
 		C154D7F91F054C95000805D7 /* MobileChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C154D7FD1F054C95000805D7 /* MobileChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileChallengeUITests.swift; sourceTree = "<group>"; };
 		C154D7FF1F054C95000805D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C154D80F1F054F58000805D7 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C154D8111F0552E1000805D7 /* Phone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		C154D8131F05539C000805D7 /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		C154D8161F05547B000805D7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C154D8181F0554E6000805D7 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		C154D81A1F0555DC000805D7 /* MyHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyHelpers.swift; sourceTree = "<group>"; };
+		C154D81C1F05575B000805D7 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C154D8211F055A99000805D7 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		C154D8231F055E5B000805D7 /* UserApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserApi.swift; sourceTree = "<group>"; };
+		C154D8251F05BA82000805D7 /* UserDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0526CB67038530492554EFA8 /* Pods_MobileChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				C154D7F11F054C95000805D7 /* MobileChallengeTests */,
 				C154D7FC1F054C95000805D7 /* MobileChallengeUITests */,
 				C154D7DB1F054C95000805D7 /* Products */,
+				C77DC0BABAB68E5BBB077D7E /* Pods */,
+				C85D96708051F5E02B1641C2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +122,11 @@
 		C154D7DC1F054C95000805D7 /* MobileChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				C154D8151F05544E000805D7 /* Helpers */,
+				C154D80B1F054E6F000805D7 /* Models */,
+				C154D80D1F054E84000805D7 /* Views */,
+				C154D80E1F054E93000805D7 /* Controllers */,
 				C154D7DD1F054C95000805D7 /* AppDelegate.swift */,
-				C154D7DF1F054C95000805D7 /* ViewController.swift */,
-				C154D7E11F054C95000805D7 /* Main.storyboard */,
 				C154D7E41F054C95000805D7 /* Assets.xcassets */,
 				C154D7E61F054C95000805D7 /* LaunchScreen.storyboard */,
 				C154D7E91F054C95000805D7 /* Info.plist */,
@@ -125,6 +152,70 @@
 			path = MobileChallengeUITests;
 			sourceTree = "<group>";
 		};
+		C154D80B1F054E6F000805D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C154D80F1F054F58000805D7 /* User.swift */,
+				C154D8111F0552E1000805D7 /* Phone.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C154D80D1F054E84000805D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C154D7E11F054C95000805D7 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C154D80E1F054E93000805D7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C154D81E1F05598D000805D7 /* TVCells */,
+				C154D8131F05539C000805D7 /* UserListViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C154D8151F05544E000805D7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C154D8161F05547B000805D7 /* Extensions.swift */,
+				C154D8181F0554E6000805D7 /* Device.swift */,
+				C154D81A1F0555DC000805D7 /* MyHelpers.swift */,
+				C154D81C1F05575B000805D7 /* Constants.swift */,
+				C154D8231F055E5B000805D7 /* UserApi.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		C154D81E1F05598D000805D7 /* TVCells */ = {
+			isa = PBXGroup;
+			children = (
+				C154D8211F055A99000805D7 /* MyTableViewCell.swift */,
+				C154D8251F05BA82000805D7 /* UserDetailViewController.swift */,
+			);
+			name = TVCells;
+			sourceTree = "<group>";
+		};
+		C77DC0BABAB68E5BBB077D7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AB46BFF235EC84F738BDCA3 /* Pods-MobileChallenge.debug.xcconfig */,
+				3AD3BA1B3FD30C8B4CFFA9E1 /* Pods-MobileChallenge.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C85D96708051F5E02B1641C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F70C8105FC7E18B93B8292C /* Pods_MobileChallenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +223,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C154D8021F054C95000805D7 /* Build configuration list for PBXNativeTarget "MobileChallenge" */;
 			buildPhases = (
+				B7D1F4ED0689C0B225ABABF9 /* [CP] Check Pods Manifest.lock */,
 				C154D7D61F054C95000805D7 /* Sources */,
 				C154D7D71F054C95000805D7 /* Frameworks */,
 				C154D7D81F054C95000805D7 /* Resources */,
+				BCAF1BE9916471D355DE4C43 /* [CP] Embed Pods Frameworks */,
+				0468983681F2068B4CABDE61 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +287,7 @@
 				TargetAttributes = {
 					C154D7D91F054C95000805D7 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = QVU894M9MT;
 						ProvisioningStyle = Automatic;
 					};
 					C154D7ED1F054C95000805D7 = {
@@ -254,13 +349,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0468983681F2068B4CABDE61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileChallenge/Pods-MobileChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D1F4ED0689C0B225ABABF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCAF1BE9916471D355DE4C43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobileChallenge/Pods-MobileChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C154D7D61F054C95000805D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C154D7E01F054C95000805D7 /* ViewController.swift in Sources */,
+				C154D8171F05547B000805D7 /* Extensions.swift in Sources */,
+				C154D8241F055E5B000805D7 /* UserApi.swift in Sources */,
+				C154D8101F054F58000805D7 /* User.swift in Sources */,
+				C154D8141F05539C000805D7 /* UserListViewController.swift in Sources */,
+				C154D81B1F0555DC000805D7 /* MyHelpers.swift in Sources */,
+				C154D8191F0554E6000805D7 /* Device.swift in Sources */,
+				C154D8221F055A99000805D7 /* MyTableViewCell.swift in Sources */,
+				C154D8121F0552E1000805D7 /* Phone.swift in Sources */,
 				C154D7DE1F054C95000805D7 /* AppDelegate.swift in Sources */,
+				C154D81D1F05575B000805D7 /* Constants.swift in Sources */,
+				C154D8261F05BA82000805D7 /* UserDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,8 +564,10 @@
 		};
 		C154D8031F054C95000805D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB46BFF235EC84F738BDCA3 /* Pods-MobileChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QVU894M9MT;
 				INFOPLIST_FILE = MobileChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Iguanafix.MobileChallenge;
@@ -424,8 +578,10 @@
 		};
 		C154D8041F054C95000805D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD3BA1B3FD30C8B4CFFA9E1 /* Pods-MobileChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QVU894M9MT;
 				INFOPLIST_FILE = MobileChallenge/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Iguanafix.MobileChallenge;
@@ -507,6 +663,7 @@
 				C154D8041F054C95000805D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C154D8051F054C95000805D7 /* Build configuration list for PBXNativeTarget "MobileChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +672,7 @@
 				C154D8071F054C95000805D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C154D8081F054C95000805D7 /* Build configuration list for PBXNativeTarget "MobileChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +681,7 @@
 				C154D80A1F054C95000805D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
